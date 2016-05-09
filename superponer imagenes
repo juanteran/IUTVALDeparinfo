@@ -1,0 +1,5 @@
+<div style="position:relative"><img src="imagen_debajo.jpg" width="268" hspace="16" height="268" vspace="16" />
+	<div style="position:absolute; top:0; left:0;">
+		<a href="http://www.guiaplaza.com"><img border="0"  src="marco_chistes.png" width="300" height="300" /></a>
+	</div>
+</div>

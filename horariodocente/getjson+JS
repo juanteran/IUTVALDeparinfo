@@ -1,0 +1,4 @@
+    $.getJSON("http://urldeljson.com/", function(data) {
+        // Aquí puedes manejar la variable data, que contiene el array con los datos del JSON.
+        alert(data['login']);
+    });
