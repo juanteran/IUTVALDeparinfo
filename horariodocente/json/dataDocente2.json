@@ -182,11 +182,19 @@
  },
  {
    "ID":"table_46",
-   "usuario":"LAuyardemont"
+   "usuario":"LAuyardemont",
+   "nombre":"Luis Américo Auyadermont Muñoz" ,
+   "email":"lauyaderiutval@gmail.com",
+   "blog":"auyadermont.wordpress.com",
+   "cel":"0426-2244264"
  },
  {
    "ID":"table_47",
-   "usuario":"LAuyardemontJr"
+   "usuario":"LAuyardemontJr",
+   "nombre":"Luis Américo Yuruani Auyadermont Mendoza" ,
+   "email":"yur21@gmail.com",
+   "blog":"auyadermont.wordpress.com",
+   "cel":"000-00-00-00"
  },
  {
    "ID":"table_48",

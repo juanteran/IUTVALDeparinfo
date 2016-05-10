@@ -18,7 +18,7 @@
 <body  id="idbody" >
 <div class="container">
   <div class="row">  
-  <img width="100%"src="../imagenes/bannerPrincipal.jpg" alt="">
+  <img width="100%"src="http://cyberserver.ddns.net:1111/imagenes/IUTVBarra.jpg" alt="">
 
   </div>
    <div ng-controller="controladorDatos">
@@ -36,7 +36,7 @@
    	<div ng-repeat="docente in equipo.docentes | filter:searchText">
 
 	   	<div class="list-group">
-	    	<a href="#{{docente.ID}}" class="list-group-item">{{docente.usuario}}</a>
+	    	<a href="#{{docente.ID}}" class="list-group-item">{{docente.usuario}}, <b>Nombre y Apellido:</b> {{docente.nombre}}, <b>Correo Electrónico:</b> {{docente.email}}</a>
 	   	</div>
     </div>
 
