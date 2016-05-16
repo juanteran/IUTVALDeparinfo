@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>IIUTVAL-Departamento de Informática</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="favicon.ico" />
+  
+
+</head>
+
+<body>
+
+
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<img width="100%"  alt="140x140" src="imagenes/bannerPrincipal.png "> 
+			
+<!--  Barra de Botones de Menu -->
+
+
+      <div class="navbar nav-tabs navbar-inner">
+        <a class="brand" href="index.html">Inicio</a>
+       
+        
+      <!-- Sub menu  INICIO  -->
+        <ul class="nav">
+           <li class="dropdown">
+
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Coordinacion <span class="caret"></span>
+            </a>
+              
+            </li>
+
+
+             <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Docentes <span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="docentes.html">Listado</a></li>
+                <li><a href="horariodocente/">Horarios</a></li>
+              </ul>
+            </li>
+
+
+             <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Documentos<span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="Documentos/Estadisticas.xls">Estadísticas</a></li>
+                <li><a href="Documentos/Formato.xlsx">Formato de Asistencia</a></li>
+                <li><a href="Documentos/RegistroE.xlsx">Formato de Registro Estudiantil</a></li>
+              </ul>
+            </li>
+
+             <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Voceros<span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="#">Informacion General</a></li>
+                <li><a href="#">Reglamentos</a></li>
+              </ul>
+            </li>
+
+
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Mapas<span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="#">Ubicacion de los Laboratorios</a></li>
+                <li><a href="#">Ubicacion de las Dependencias</a></li>
+              </ul>
+            </li>  
+
+
+             <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Aula Virtual<span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="#myModal" role="button" class="btn" data-toggle="modal">Moodle</a></li>
+                <li><a href="#">Video Conferencias</a></li>
+                <li><a href="#">Tutoriales</a></li>
+              </ul>
+            </li>           
+
+
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Software Libre<span class="caret"></span>
+            </a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="#">GNU/Linux</a></li>
+                <li><a href="http://canaima.softwarelibre.gob.ve/">Canaima</a></li>
+                <li><a href="#">-----------</a></li>
+                <li><a href="#">Android</a></li>
+              </ul>
+            </li>  
+
+        
+        </ul> 
+        
+  
+    
+    </div>
+  <!-- Fin de Sub Menu -->
+    
+    </div>
+  
+
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3 id="myModalLabel">Aula Virtual</h3>
+</div>
+<div class="modal-body">
+<p>Plataforma Virtual Moodle del IUTVAL</p>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+
+</div>
+</div>
+
+
+
+<!---->
+	<!--Fin del menu Principal -->
+<table  class="table table-condensed">
+  <P>Listado de Docentes  del Departamento de Informatica</P>
+<tr class="success"><td>No</td><td>APELLIDO</td><td>NOMBRE</td><td>HORARIO</td></tr>
+<tr><td>1</td><td>ÁLVAREZ</td><td>HÉCTOR</td><td><a href="#">Haz clic para ver el horario</a></td></tr>
+<tr><td>2</td><td>ARA</td><td>CANDELARIO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>3</td><td>ARAMENDI</td><td>LEO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>4</td><td>ARMAS</td><td>ALFREDO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>5</td><td>ARTEAGA</td><td>JUAN</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>6</td><td>AUYADERMONT</td><td>LUIS</td><td><a href="horariodocente/AUYADERMONT, LUIS.pdf">Haz clic para ver el horario</a></td></tr>
+<tr><td>7</td><td>BAPTISTA</td><td>ROSSY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>8</td><td>BARICO</td><td>WILMER</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>9</td><td>BRICEÑO</td><td>JENNYFER</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>10</td><td>CABALLERO</td><td>ANTONIO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>11</td><td>CABRERA</td><td>JUAN</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>12</td><td>CARVALLO</td><td>DELSY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>13</td><td>CASTILLO</td><td>ELEAZAR</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>14</td><td>CASTRO</td><td>PEDRO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>15</td><td>COLMENARES</td><td>YERLIN</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>16</td><td>CUTRONE</td><td>NICOLAS</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>17</td><td>DIANES</td><td>MARIA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>18</td><td>DIAZ</td><td>PASTORA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>19</td><td>DURAN</td><td>TRINIDAD</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>20</td><td>ESCALANTE</td><td>PEDRO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>21</td><td>ESCALONA</td><td>EMERSON</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>22</td><td>ESCOBAR</td><td>FLORENCIO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>23</td><td>ESPINOZA</td><td>JOSÉ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>24</td><td>EVIES</td><td>MARIO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>25</td><td>FARÍAS</td><td>ELEANY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>26</td><td>FIGUEIRA</td><td>MARISOL</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>27</td><td>GIL</td><td>DELY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>28</td><td>GIMÉNEZ</td><td>LUIS</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>29</td><td>GOMEZ</td><td>ENRIQUE</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>30</td><td>GONZALEZ</td><td>FRED</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>31</td><td>GONZÁLEZ</td><td>PAULO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>32</td><td>GONZÁLEZ</td><td>TIBISAY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>33</td><td>GUADAMA</td><td>JUAN</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>34</td><td>HEREDIA</td><td>JOSÉ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>35</td><td>HERNÁNDEZ</td><td>YANEISIA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>36</td><td>HIDALGO</td><td>BESLITH</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>37</td><td>ISTURIZ</td><td>SUYIN</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>38</td><td>LEMUS</td><td>ELLUZ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>39</td><td>LÓPEZ</td><td>IRMA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>40</td><td>LÓPEZ</td><td>MARÍA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>41</td><td>LÓPEZ</td><td>NELSON</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>42</td><td>MACHADO</td><td>LINA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>43</td><td>MACHADO</td><td>OMAR</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>44</td><td>MACHUCA</td><td>YUMAIRA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>45</td><td>MARTÍNEZ</td><td>MARINO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>46</td><td>MEDINA</td><td>BETTY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>47</td><td>MORALES</td><td>JOSE</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>48</td><td>MORENO</td><td>ANTHONY</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>49</td><td>MORENO</td><td>JUAN</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>50</td><td>MORENO</td><td>PIERINA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>51</td><td>MOTA</td><td>SERGIO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>52</td><td>NOGUERA</td><td>CARLA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>53</td><td>NÚÑEZ</td><td>CLAUDIA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>54</td><td>PACHECO</td><td>ANDREA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>55</td><td>PALACIOS</td><td>MARÍA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>56</td><td>PÉREZ</td><td>NESON</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>57</td><td>PINTO</td><td>LISBETH</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>58</td><td>PINTO</td><td>VENTURA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>59</td><td>PIRELA</td><td>JANETT</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>60</td><td>PORTE</td><td>CARLOS</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>61</td><td>PUEBLA</td><td>MIGUEL</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>62</td><td>REYES</td><td>GILBERTO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>63</td><td>RINCÓN</td><td>EDGAR</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>64</td><td>RINCÓN</td><td>JOSÉ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>65</td><td>ROBERTIS</td><td>EDUARDO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>66</td><td>ROBLES</td><td>MARIO</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>67</td><td>RODRÍGUEZ</td><td>DAISA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>68</td><td>RODRIGUEZ</td><td>MANUEL</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>69</td><td>RODRÍGUEZ</td><td>MARÍA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>70</td><td>ROJAS</td><td>OMAR</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>71</td><td>ROMERO</td><td>GREGORIA</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>72</td><td>SANCHEZ</td><td>LUIS</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>73</td><td>SILVA</td><td>JOSÉ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>74</td><td>TESORERO</td><td>JOSÉ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>75</td><td>TILLERO</td><td>JOSÉ</td><td>Haz clic para ver el horario</td></tr>
+<tr><td>76</td><td>TORTOLERO</td><td>CARMEN</td><td>Haz clic para ver el horario</td></tr>
+</table>
+
+
+
+
+
+
+ 		</div>
+    
+    </div>
+</div>
+			
+<!---->
+
+
+</body>
+	<script type="text/javascript"  src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</html>
